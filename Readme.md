@@ -11,7 +11,7 @@
 ## Staking
 ### [Bringold Earn](https://polygonscan.com/address/0x5D94A566b464FC9AD7aBE3913d6223e64D0ea00B)
 ### [Brinland Earn](https://polygonscan.com/address/0x92c718af92a6bc45E90fBBF1D87e706551c45C8f)
-### [Staking](https://polygonscan.com/address/0x25cFE3147062459b6fd70ceCeA6F8e334a00fcf3)
+### [Staking](https://polygonscan.com/address/0xF84A961B1bB6E72E9d412623684e4fE5540941c6)
 
 
 ## Treasury
@@ -31,5 +31,5 @@
 ### [P2P Exchange](https://polygonscan.com/address/0x94D499A78249fD81F477030026a55f8F2E0Db8c8)
 
 ## Status
-### [Referrals](https://polygonscan.com/address/0xb616d567C8Ad765a54e33DA38D715f34920FfC32)
+### [Referrals](https://polygonscan.com/address/0x049F7644F5E46534f6F6dAf30ED222284BBB581B)
 ### [Subscriptions](https://polygonscan.com/address/0x01924E39142F48525Dd0d269002D0474cC41205D)
