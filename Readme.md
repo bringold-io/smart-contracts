@@ -1,35 +1,77 @@
-# Bringold Contracts
+# BRINGOLD (BRIN) — Jetton on TON
 
-## Tokens
-### [BRIN Token](https://polygonscan.com/address/0xBC0b7dE316f4E57C677370CCD3A36697D6Fc5De2)
-### [BRING Token](https://polygonscan.com/address/0xb67b696a7F55a52723D80f62bb5F8532aBdBc674)
-### [BRLD Token](https://polygonscan.com/address/0x09A89F63023Ac7EA03C8E8810A95E19eF150E2f2)
+> This token was minted via **TON Minter** using the **Jetton standard (TEP‑74)** with **no custom logic modifications**.
 
-## ICO
-### [ICO](https://polygonscan.com/address/0xEB67BD000Bad13b9b6c6899ac91330E803cB8FA5)
+---
 
-## Staking
-### [Bringold Earn](https://polygonscan.com/address/0x5D94A566b464FC9AD7aBE3913d6223e64D0ea00B)
-### [Brinland Earn](https://polygonscan.com/address/0x92c718af92a6bc45E90fBBF1D87e706551c45C8f)
-### [Staking](https://polygonscan.com/address/0xF84A961B1bB6E72E9d412623684e4fE5540941c6)
+## Overview
 
+* **Name:** BRINGOLD
+* **Symbol:** BRIN
+* **Standard:** Jetton (**TEP‑74**)
+* **Network:** TON Mainnet
+* **Decimals:** `9`
+* **Mintable:** `false`
+* **Max supply:** `905,989,000 BRIN`
 
-## Treasury
-### [Bringold Vault](https://polygonscan.com/address/0x6AeC9c889Cb847372A4e210e8cE8128bC3Cd79DF)
+BRINGOLD is a multifunctional blockchain platform based on DAO principles. The ecosystem covers GameFi, DeFi, SocialFi, and education, aiming to build a universal Web3/metaverse space.
 
-## Governance
-### [Bringold Team Vault](https://polygonscan.com/address/0x5b7cd03afA07c2211d5ce43e0D896Ca27786F4FC)
-### [Bringold Wallet](https://polygonscan.com/address/0x901B903CdbB3a862bAa3cbb24855C50900D740A0)
+## Contract Addresses
 
-## Games
-### [Raffle](https://polygonscan.com/address/0xC42031c995C85FF1f2e9C09a9d32831e2Dd8C5A0)
-### [CoinFlip](https://polygonscan.com/address/0x0593090c1Dda457fDe7011Bda7E6e7257EE98EBd)
+* **Jetton master (base64 / bounceable):** `EQAQfNrwhA5sEywrLTtsxpyQFeKRfEpLdZREZILP9z9iUjAH`
+* **Jetton master (hex / raw):** `0:107cdaf0840e6c132c2b2d3b6cc69c9015e2917c4a4b7594446482cff73f6252`
+* **Contract type:** `jetton_master`
 
-## Exchange
-### [P2P-Fiat-Sell](https://polygonscan.com/address/0xb83bCA22F8BdF095761bc484aDd45b1e961B1506)
-### [P2P-Fiat-Buy](https://polygonscan.com/address/0x1e06b4795Fd26f4AB316DeC770ED873d225C8088)
-### [P2P Exchange](https://polygonscan.com/address/0x94D499A78249fD81F477030026a55f8F2E0Db8c8)
+> Jetton wallet addresses are user‑specific and derived by the standard wallet code of TEP‑74.
 
-## Status
-### [Referrals](https://polygonscan.com/address/0x049F7644F5E46534f6F6dAf30ED222284BBB581B)
-### [Subscriptions](https://polygonscan.com/address/0x01924E39142F48525Dd0d269002D0474cC41205D)
+## Explorers / Verification
+
+* **Tonscan (Jetton):** [https://tonscan.org/jetton/EQAQfNrwhA5sEywrLTtsxpyQFeKRfEpLdZREZILP9z9iUjAH](https://tonscan.org/jetton/EQAQfNrwhA5sEywrLTtsxpyQFeKRfEpLdZREZILP9z9iUjAH)
+* **Tonviewer (address):** [https://tonviewer.com/EQAQfNrwhA5sEywrLTtsxpyQFeKRfEpLdZREZILP9z9iUjAH](https://tonviewer.com/EQAQfNrwhA5sEywrLTtsxpyQFeKRfEpLdZREZILP9z9iUjAH)
+
+## Token Metadata (on‑chain/off‑chain fields)
+
+```json
+{
+  "address": "0:107cdaf0840e6c132c2b2d3b6cc69c9015e2917c4a4b7594446482cff73f6252",
+  "name": "BRINGOLD",
+  "symbol": "BRIN",
+  "decimals": "9",
+  "image": "https://i.ibb.co/vvLQjCqk/brin-logo.png",
+  "description": "BRINGOLD is a multifunctional blockchain platform based on DAO principles. The ecosystem covers GameFi, DeFi, SocialFi and education, aiming to build a universal Web3/metaverse space.",
+  "social": [
+    "https://t.me/Bringold_io",
+    "https://twitter.com/Bringold_io"
+  ],
+  "websites": [
+    "https://bringold.io"
+  ]
+}
+```
+
+## Source Code
+
+This token uses the **canonical Jetton contracts** (TEP‑74) as deployed by **TON Minter** with default logic.
+
+* **Jetton standard (TEP‑74):** [https://github.com/ton-blockchain/TEPs/blob/master/text/0074-jettons-standard.md](https://github.com/ton-blockchain/TEPs/blob/master/text/0074-jettons-standard.md)
+* **Reference contracts / deployer (examples):** [https://github.com/ton-blockchain/minter-contract](https://github.com/ton-blockchain/minter-contract)
+
+> There is **no custom contract code** beyond the standard Jetton master & wallet implementations. This repository serves as a public reference for reviewers (CMC/exchanges) with links, parameters, and proofs.
+
+## Parameters & Invariants
+
+* **Symbol/Name/Decimals** fixed at deploy.
+* **Mintability:** `false` (no further supply increase).
+* **Max supply:** `905,989,000` BRIN.
+
+## Supply & Mintability Notes
+
+* "Max supply" reflects the configured total supply at deployment.
+* With `mintable = false`, no additional tokens can be minted via the standard Jetton minter functions.
+
+## Project Links
+
+* **Website:** [https://bringold.io](https://bringold.io)
+* **Telegram:** [https://t.me/Bringold_io](https://t.me/Bringold_io)
+* **Twitter/X:** [https://twitter.com/Bringold_io](https://twitter.com/Bringold_io)
+
